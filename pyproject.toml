@@ -1,0 +1,12 @@
+[project]
+name = "moxi-teleop"
+version = "0.1.0"
+description = "Teleoperate robots with the MOXI V100R+ mocap suit"
+requires-python = ">=3.10"
+dependencies = [
+  "mujoco==3.11.0",  # Same as tracking/morphmimic's uv.lock.
+  "numpy",
+]
+
+[tool.uv]
+package = false  # Scripts only, nothing to build or install.

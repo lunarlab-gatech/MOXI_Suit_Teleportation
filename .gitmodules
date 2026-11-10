@@ -1,0 +1,4 @@
+[submodule "tracking/morphmimic"]
+	path = tracking/morphmimic
+	url = https://github.com/lzyang2000/morphmimic.git
+	ignore = dirty
